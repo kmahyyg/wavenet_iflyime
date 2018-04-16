@@ -2,6 +2,7 @@
 
 apikey*.py
 apikey*.json
+output.wav
 
 ### VirtualEnv template
 # Virtualenv

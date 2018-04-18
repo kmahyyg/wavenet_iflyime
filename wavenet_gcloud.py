@@ -11,7 +11,8 @@ import requests
 
 def main():
     input("Execute: $ gcloud auth activate-service-account --key-file=[PATH] ")
-    apikey = input("Execute: $ gcloud auth application-default print-access-token ")
+    os.system('gcloud auth application-default print-access-token')
+    apikey = input("Paste the key here:")
     ttstext = input("Text you want to transfer to a speech: ")
     baseurl = 'https://texttospeech.googleapis.com/v1beta1/text:synthesize'
     inputdatas = {

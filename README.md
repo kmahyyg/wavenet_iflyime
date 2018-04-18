@@ -19,7 +19,8 @@ Put your APPID and APIKEY with IP Whitelist in the apikey.py.example and follow 
 ```bash
 user@testvm $ cp ./apikey.py.example ./apikey.py
 user@testvm $ pip3.6 install -r ./requirements.txt
-user@testvm $ python3.6 ./main.py
+user@testvm $ python3.6 ./main.py  # For Chinese TTS
+user@testvm $ python3 ./wavenet_gcloud.py  # For English TTS 
 ```
 
 ## Follow the text instruction
